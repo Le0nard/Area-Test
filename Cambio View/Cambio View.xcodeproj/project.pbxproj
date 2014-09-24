@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3FD298819D2D9EB006AC581 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FD298719D2D9EB006AC581 /* AppDelegate.swift */; };
+		B3FD298A19D2D9EC006AC581 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FD298919D2D9EC006AC581 /* ViewController.swift */; };
+		B3FD298D19D2D9EC006AC581 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3FD298B19D2D9EC006AC581 /* Main.storyboard */; };
+		B3FD298F19D2D9EE006AC581 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3FD298E19D2D9EE006AC581 /* Images.xcassets */; };
+		B3FD299219D2D9EE006AC581 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3FD299019D2D9EE006AC581 /* LaunchScreen.xib */; };
+		B3FD299E19D2D9EE006AC581 /* Cambio_ViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FD299D19D2D9EE006AC581 /* Cambio_ViewTests.swift */; };
+		B3FD29A819D2E6A9006AC581 /* SecondaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FD29A719D2E6A9006AC581 /* SecondaView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3FD299819D2D9EE006AC581 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3FD297A19D2D9E7006AC581 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3FD298119D2D9E7006AC581;
+			remoteInfo = "Cambio View";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B3FD298219D2D9EA006AC581 /* Cambio View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cambio View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3FD298619D2D9EA006AC581 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3FD298719D2D9EB006AC581 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3FD298919D2D9EC006AC581 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B3FD298C19D2D9EC006AC581 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3FD298E19D2D9EE006AC581 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B3FD299119D2D9EE006AC581 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B3FD299719D2D9EE006AC581 /* Cambio ViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cambio ViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3FD299C19D2D9EE006AC581 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3FD299D19D2D9EE006AC581 /* Cambio_ViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cambio_ViewTests.swift; sourceTree = "<group>"; };
+		B3FD29A719D2E6A9006AC581 /* SecondaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondaView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3FD297F19D2D9E7006AC581 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3FD299419D2D9EE006AC581 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3FD297919D2D9E7006AC581 = {
+			isa = PBXGroup;
+			children = (
+				B3FD298419D2D9EA006AC581 /* Cambio View */,
+				B3FD299A19D2D9EE006AC581 /* Cambio ViewTests */,
+				B3FD298319D2D9EA006AC581 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3FD298319D2D9EA006AC581 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3FD298219D2D9EA006AC581 /* Cambio View.app */,
+				B3FD299719D2D9EE006AC581 /* Cambio ViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3FD298419D2D9EA006AC581 /* Cambio View */ = {
+			isa = PBXGroup;
+			children = (
+				B3FD298719D2D9EB006AC581 /* AppDelegate.swift */,
+				B3FD298919D2D9EC006AC581 /* ViewController.swift */,
+				B3FD298B19D2D9EC006AC581 /* Main.storyboard */,
+				B3FD298E19D2D9EE006AC581 /* Images.xcassets */,
+				B3FD299019D2D9EE006AC581 /* LaunchScreen.xib */,
+				B3FD298519D2D9EA006AC581 /* Supporting Files */,
+				B3FD29A719D2E6A9006AC581 /* SecondaView.swift */,
+			);
+			path = "Cambio View";
+			sourceTree = "<group>";
+		};
+		B3FD298519D2D9EA006AC581 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3FD298619D2D9EA006AC581 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3FD299A19D2D9EE006AC581 /* Cambio ViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3FD299D19D2D9EE006AC581 /* Cambio_ViewTests.swift */,
+				B3FD299B19D2D9EE006AC581 /* Supporting Files */,
+			);
+			path = "Cambio ViewTests";
+			sourceTree = "<group>";
+		};
+		B3FD299B19D2D9EE006AC581 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3FD299C19D2D9EE006AC581 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3FD298119D2D9E7006AC581 /* Cambio View */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3FD29A119D2D9EE006AC581 /* Build configuration list for PBXNativeTarget "Cambio View" */;
+			buildPhases = (
+				B3FD297E19D2D9E7006AC581 /* Sources */,
+				B3FD297F19D2D9E7006AC581 /* Frameworks */,
+				B3FD298019D2D9E7006AC581 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cambio View";
+			productName = "Cambio View";
+			productReference = B3FD298219D2D9EA006AC581 /* Cambio View.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3FD299619D2D9EE006AC581 /* Cambio ViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3FD29A419D2D9EE006AC581 /* Build configuration list for PBXNativeTarget "Cambio ViewTests" */;
+			buildPhases = (
+				B3FD299319D2D9EE006AC581 /* Sources */,
+				B3FD299419D2D9EE006AC581 /* Frameworks */,
+				B3FD299519D2D9EE006AC581 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3FD299919D2D9EE006AC581 /* PBXTargetDependency */,
+			);
+			name = "Cambio ViewTests";
+			productName = "Cambio ViewTests";
+			productReference = B3FD299719D2D9EE006AC581 /* Cambio ViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3FD297A19D2D9E7006AC581 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = LS;
+				TargetAttributes = {
+					B3FD298119D2D9E7006AC581 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					B3FD299619D2D9EE006AC581 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = B3FD298119D2D9E7006AC581;
+					};
+				};
+			};
+			buildConfigurationList = B3FD297D19D2D9E7006AC581 /* Build configuration list for PBXProject "Cambio View" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3FD297919D2D9E7006AC581;
+			productRefGroup = B3FD298319D2D9EA006AC581 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3FD298119D2D9E7006AC581 /* Cambio View */,
+				B3FD299619D2D9EE006AC581 /* Cambio ViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3FD298019D2D9E7006AC581 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3FD298D19D2D9EC006AC581 /* Main.storyboard in Resources */,
+				B3FD299219D2D9EE006AC581 /* LaunchScreen.xib in Resources */,
+				B3FD298F19D2D9EE006AC581 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3FD299519D2D9EE006AC581 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3FD297E19D2D9E7006AC581 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3FD29A819D2E6A9006AC581 /* SecondaView.swift in Sources */,
+				B3FD298A19D2D9EC006AC581 /* ViewController.swift in Sources */,
+				B3FD298819D2D9EB006AC581 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3FD299319D2D9EE006AC581 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3FD299E19D2D9EE006AC581 /* Cambio_ViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3FD299919D2D9EE006AC581 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3FD298119D2D9E7006AC581 /* Cambio View */;
+			targetProxy = B3FD299819D2D9EE006AC581 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3FD298B19D2D9EC006AC581 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3FD298C19D2D9EC006AC581 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3FD299019D2D9EE006AC581 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3FD299119D2D9EE006AC581 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3FD299F19D2D9EE006AC581 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B3FD29A019D2D9EE006AC581 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3FD29A219D2D9EE006AC581 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cambio View/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B3FD29A319D2D9EE006AC581 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cambio View/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B3FD29A519D2D9EE006AC581 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Cambio ViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cambio View.app/Cambio View";
+			};
+			name = Debug;
+		};
+		B3FD29A619D2D9EE006AC581 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Cambio ViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cambio View.app/Cambio View";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3FD297D19D2D9E7006AC581 /* Build configuration list for PBXProject "Cambio View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3FD299F19D2D9EE006AC581 /* Debug */,
+				B3FD29A019D2D9EE006AC581 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3FD29A119D2D9EE006AC581 /* Build configuration list for PBXNativeTarget "Cambio View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3FD29A219D2D9EE006AC581 /* Debug */,
+				B3FD29A319D2D9EE006AC581 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B3FD29A419D2D9EE006AC581 /* Build configuration list for PBXNativeTarget "Cambio ViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3FD29A519D2D9EE006AC581 /* Debug */,
+				B3FD29A619D2D9EE006AC581 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3FD297A19D2D9E7006AC581 /* Project object */;
+}
